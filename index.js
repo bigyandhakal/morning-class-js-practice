@@ -24,10 +24,27 @@ const person2 = 'Johnny'; // cannot be changed
 
 // JS interactions
 
-alert("Hello world!");
-// person1 = prompt("What is your name?");
-const isLegal = confirm('Are you 18 years and above?');
+// alert("Hello world!");
+const age = Number(prompt("What is your age?"));
+// const isLegal = confirm('Are you 18 years and above?');
 
-console.log({person, person1, person2, isLegal})
+// value      type     strict
+// =            =        =           (===)
+
+if (age<10){
+    alert('Your are not allowed');
+}
+else{
+    alert('You are allowed');
+}
 
 
+console.log({person, person1, person2, age})
+
+
+/** 
+ * Assignment: User variable and interaction to check user login
+ * 1. prompt username and password
+ * 2. check if username and password is correct
+ * alert welcome message else denied.
+ */
