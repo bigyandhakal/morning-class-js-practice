@@ -49,15 +49,117 @@
 //  * alert welcome message else denied.
 //  */
 
-const user = "bigyan";
-const pass = "123";
+// const user = "bigyan";
+// const pass = "123";
 
-const login = prompt("Username:");
-const login2 = prompt("Password:");
+// const login = prompt("Username:");
+// const login2 = prompt("Password:");
 
-if (login === user && login2 === pass){
-    alert("Welcome to the Javascript");
-}
-else {
-    alert("Invalid username and password.");
-}
+// if (login === user && login2 === pass){
+//     alert("Welcome to the Javascript");
+// }
+// else {
+//     alert("Invalid username and password.");
+// }
+
+// If, else if and else statement 
+// if (a===0){
+// }else if (a===1){
+// }else if (a===2){
+// }else if (a===3){
+// }
+// else {
+//     "Not a day"
+// }
+
+// switch case 
+// switch (a===0){
+//     case value:
+//     case value:
+//     default:
+// }
+
+
+// if (a===0){
+//     console.log("it' 0");
+// }
+// else{
+//     console.log("it's not a 0");
+// }
+
+//  Ternary Operator
+// const answer = a === 0 ? console.log("it's 0") : console.log("it's not 0");
+
+
+// Task 1
+// prompt user to enter a number
+// check if the number is which day of the week
+// Example 0 = Sunday, 1 = Monday, 2 = Tuesday
+
+
+// const number = Number(prompt("Provide a number:"));
+
+// if (number === 0){
+//     alert("Sunday");
+// }
+// else if (number == 1){
+//     alert("Monday");
+// }
+// else if (number == 2){
+//     alert("Tuesday");
+// }
+// else if (number == 3){
+//     alert("Wednesday");
+// }
+// else if (number == 4){
+//     alert("Thursday");
+// }
+// else if (number == 5){
+//     alert("Friday");
+// }
+// else if(number == 6){
+//     alert("Saturday");
+// }
+// else {
+//     alert("Invalid number");
+// }
+
+a===0 ? x : (a ===1) ? z : y
+
+const number = Number(prompt("Provide a number:"))
+number === 0 ? alert("Sunday") : (number === 1) ? alert("Monday") : number
+
+
+//  Task 2
+//  prompt user to enter a first number
+//  prompt user to enter a second number
+//  prompt user to enter a operator
+//  using switch case
+//  perform the operation and display result
+
+// const firstNumber = Number(prompt("Enter first number:"));
+// const secondNumber = Number(prompt("Enter second number:"));
+// const operator = prompt("Provide a operator eg. + , -, *, /") // "+"
+
+// console.log(operator)
+
+// switch (operator){
+//     case "+":{
+//         alert(firstNumber + secondNumber);
+//         break
+//     }
+//     case "-":{
+//         alert(firstNumber - secondNumber);
+//         break
+//     }
+//     case "*":{
+//         alert(firstNumber * secondNumber);
+//         break
+//     }
+//     case "/":{
+//         alert(firstNumber / secondNumber);
+//     }
+//     default:{
+//         alert("Invalid");
+//     }
+// }
