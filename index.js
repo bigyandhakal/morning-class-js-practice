@@ -166,25 +166,25 @@
 
 // for loop
 
-let i;
-for (i=0; i< 10; i++){
-    console.log("The value of i :", i)
-}
-
+// let i;
+// for (i=0; i< 10; i++){
+//     console.log("The value of i :", i)
+// }
 
 // while
 
-let j = 0;
-while (j < 10){
-    console.log('the value of j:', j);
-    j ++;
-}
+// let j = 0;
+// while (j < 10){
+//     console.log('the value of j:', j);
+//     j ++;
+// }
 
+// // do  while
 
-// do  while
+// let k = 0;
+// do {
+//     console.log("the value of k:", k);
+//     k ++;
+// } while(k < 10);
 
-let k = 0;
-do {
-    console.log("the value of k:", k);
-    k ++;
-} while(k < 10);
+// function
