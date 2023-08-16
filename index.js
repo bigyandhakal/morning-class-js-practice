@@ -124,10 +124,10 @@
 //     alert("Invalid number");
 // }
 
-a===0 ? x : (a ===1) ? z : y
+// a===0 ? x : (a ===1) ? z : y
 
-const number = Number(prompt("Provide a number:"))
-number === 0 ? alert("Sunday") : (number === 1) ? alert("Monday") : number
+// const number = Number(prompt("Provide a number:"))
+// number === 0 ? alert("Sunday") : (number === 1) ? alert("Monday") : number
 
 
 //  Task 2
@@ -163,3 +163,11 @@ number === 0 ? alert("Sunday") : (number === 1) ? alert("Monday") : number
 //         alert("Invalid");
 //     }
 // }
+
+// for loop
+let i;
+for (i=0; i<10; i++){
+    console.log("The value of i :", i)
+}
+
+
