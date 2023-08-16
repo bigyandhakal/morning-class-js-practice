@@ -188,3 +188,18 @@
 // } while(k < 10);
 
 // function
+
+const userName = prompt("Username:");
+const passWord = prompt("Password:");
+
+function userLogin(user, pass){
+    if (user === userName && pass === passWord){
+        alert("Login with success");
+    }
+    else {
+        alert("Login denied.")
+    }
+}
+
+userLogin("bigyan", "123");
+
