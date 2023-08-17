@@ -189,17 +189,58 @@
 
 // function
 
-const userName = prompt("Username:");
-const passWord = prompt("Password:");
+// const userName = prompt("Username:");
+// const passWord = prompt("Password:");
 
-function userLogin(user, pass){
-    if (user === userName && pass === passWord){
-        alert("Login with success");
-    }
-    else {
-        alert("Login denied.")
-    }
-}
+// function userLogin(user, pass){
+//     if (user === userName && pass === passWord){
+//         alert("Login with success");
+//     }
+//     else {
+//         alert("Login denied.") // implicit function
+                // or
+        //    return "Access denied" // explicit function
+//     }
+// }
 
-userLogin("bigyan", "123");
+// userLogin("bigyan", "123");
 
+// Pure function (resolve and result always remains the same eg: utils function)
+
+// Callback function      (function inside function)
+
+//  wrtie a function that checks the username and password  and sends following messages:
+// if no username, username is required
+// if no password, password is required
+// if username !=== username, username not found
+// if password !=== password, access denied
+// if username and password matches access granted
+
+// const userName = prompt("Username");
+// const passWord = prompt("Password");
+
+// function userLogin(user, pass){
+    
+//     user =  user ? user : alert("username not found");
+//     pass = pass ? pass : alert("password not found");
+
+//     if (user === userName && pass === passWord){
+//         return "Login with success";
+//         // alert ("login with success");
+//     }
+//     else {
+//         // return "Access denied"
+//         // alert ("access deined")
+//     }
+// }
+
+// userLogin("bigyan", "123")
+
+
+// hoisting (variable / function)
+
+// function sayHI()   this is global scope
+
+// const sayHI = () => {         arrow function is local scope
+//     console.log('hi') 
+// }
